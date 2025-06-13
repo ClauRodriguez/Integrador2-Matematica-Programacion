@@ -21,3 +21,7 @@ Trabajo integrador 2 que relaciona matemáticas y programación en Python.
     c. Ejecuta 
     ```sh
     python .\main.py  
+
+# Video Explicativo del programa
+   ```sh
+    https://youtu.be/FO3CW1vVVWs
