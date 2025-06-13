@@ -29,11 +29,11 @@ def operacion_conjuntos_diferencia_simetrica(conjuntos):
 # Expresiones Lógicas
 def evaluar_condiciones(conjuntos):
     mensajes = []
-    
-    if all(len(conjunto) > 5 for conjunto in conjuntos):
+    if all(len(conjunto) >= 5 for conjunto in conjuntos):
         mensajes.append("Se encontró Alta diversidad numérica")
     
-    if any(digito in conjunto for conjunto in conjuntos for digito in set.intersection(*conjuntos)):
+    interseccion_comun = set.intersection(*conjuntos)
+    if interseccion_comun: 
         mensajes.append("Se encontró al menos un Dígito común")
     
     return "\n".join(mensajes)
