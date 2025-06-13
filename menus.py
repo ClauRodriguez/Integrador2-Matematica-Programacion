@@ -90,9 +90,5 @@ def menuPrincipal():
             else:
                 print("\n❌ Opción no válida. Por favor, selecciona 1, 2 o 3.")
                 input("Presiona Enter para continuar...")
-                
-        except Exception as e:
-            print(f"\n❌ Error inesperado: {e}")
-            input("Presiona Enter para continuar...")
         except ValueError:
             print("❌ Error: Ingrese un número válido.")
