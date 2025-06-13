@@ -6,9 +6,6 @@ Trabajo integrador 2 que relaciona matemáticas y programación en Python.
 •	Claudio Rodriguez: DNI 40684154; Comision 20
 
 
-
-
-
 # Ejecucion
 1. Clona el repositorio:
    ```sh
