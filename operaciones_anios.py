@@ -7,7 +7,6 @@ def ingresar_anos_nacimiento():
     return anios
 
 #Analicis de datos
-
 def cant_pares(list):
     return sum(1 for anio in list if anio % 2 == 0)
 

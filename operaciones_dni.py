@@ -1,6 +1,3 @@
-
-
-
 #Toma de datos
 def ingresar_dnis():
     cantidad = int(input("Ingrese la cantidad de integrantes: "))
@@ -11,7 +8,6 @@ def ingresar_dnis():
 
 #Operaciones con conjuntos
 def obtener_conjunto_dni(dni):
-    #
     return set(str(dni))
 
 def operacion_conjuntos_union(conjuntos):
