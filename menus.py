@@ -21,7 +21,10 @@ def operaciones_dni():
     print("\n" + "▪"*50)
     print("📊                RESULTADOS               📊")
     print("▪"*50)
-    
+    print(f"\n CONJUNTOS UNICOS:")
+    print(f"\n-> Conjunto A: {sorted(conjunto[0])}")
+    print(f"\n-> Conjunto B: {sorted(conjunto[1])}")
+
     print(f"\n🔗 Unión de los conjuntos:")
     print(f"   {operacion_conjuntos_union(conjunto)}")
     
