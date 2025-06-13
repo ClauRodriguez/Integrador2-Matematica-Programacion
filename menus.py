@@ -11,7 +11,6 @@ def mostrar_menu():
     print("3- Salir")
     print("="*40)
 
-
 def operaciones_dni():
     print("\n" + "="*50)
     print("🆔           OPERACIONES CON DNIs           🆔")
